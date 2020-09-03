@@ -1,0 +1,33 @@
+@font-face{
+    src: url(../resource/fonts/Anime\ Inept.otf);
+    font-family: anime-font;
+}
+
+
+.front-page-background{
+    width: 100vw;
+    height: 80vh;
+    background-image: url("../resource/image/IMG_9663.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.introduction{
+    height: 10vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:  anime-font;
+    word-spacing: 20px;
+    font-size: xx-large;
+    font-weight: 300;
+}
+.introduction-icon
+{
+
+}
+.arrow-drop-down{
+}
