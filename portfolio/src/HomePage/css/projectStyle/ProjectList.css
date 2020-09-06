@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Helvetica-font;
+  src: url("../../../resource/fonts/Helvetica.ttf");
+}
+
+.about-me {
+  width: 40vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  font-family: Helvetica-font;
+  font-weight: 4px;
+  word-spacing: 2px;
+}
+/*# sourceMappingURL=ProjectList.css.map */

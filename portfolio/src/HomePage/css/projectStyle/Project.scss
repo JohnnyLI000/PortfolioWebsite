@@ -1,0 +1,60 @@
+@import '../variable.scss';
+.div{
+    color: red;
+}
+
+
+
+.project-container{
+    align-content: center;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 5vh;
+    
+    .image-container{
+        margin-left: 15vw;
+        background-color: black;
+        border-radius: 10.5px;
+        width: 400px;
+        height: 300px;
+        img{
+            border-radius: 10.5px;
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            transition: .5s ease;
+        }
+        .link-div{
+            display: block;
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+        }
+        :hover{
+            opacity: 0.7;
+        }
+      
+       
+          
+   
+         
+    }
+    .description{
+        margin-right: 15vw;
+        width: 500px;
+        .title{
+            font-size: x-large;
+            font-weight: bold;
+            margin-bottom: 2vh;
+            a{
+                color:$titleColor;
+                text-decoration: none;
+            }
+            a:hover{
+                color:$titleHoverColor;
+            }
+        }
+    }
+}
+

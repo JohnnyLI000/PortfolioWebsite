@@ -1,0 +1,68 @@
+@font-face {
+  font-family: anime-font;
+  src: url("../../../resource/fonts/Anime Inept.otf");
+}
+
+@font-face {
+  font-family: Helvetica-font;
+  src: url("../../../resource/fonts/Helvetica.ttf");
+}
+
+.page-body {
+  margin: 0;
+  background-color: sandybrown;
+}
+
+.front-page-background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../../resource//image/IMG_9328.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.front-page-background .color-cover {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 22%;
+}
+
+.introduction {
+  display: inline-block;
+  text-align: start;
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
+
+.introduction p {
+  font-family: anime-font;
+  word-spacing: 20px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.direct-area {
+  padding-left: 10vw;
+  padding-top: 35vh;
+}
+
+.direct-area .direct-button {
+  width: 300px;
+  height: 60px;
+  background-color: white;
+  border: 8px solid white;
+  font-family: Helvetica-font;
+  font-weight: 600;
+}
+
+.direct-area .direct-button:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+/*# sourceMappingURL=FrontPage.css.map */

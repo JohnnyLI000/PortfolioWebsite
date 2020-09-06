@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,UAAU;EACN,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,4CAA4C;;;AAMrD,AAAA,SAAS,CAAA;EACL,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;EACnB,WAAW,EAAE,cAAc;EAC3B,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,GAAG;CACpB",
+    "sources": [
+        "ProjectList.scss",
+        "../variable.scss"
+    ],
+    "names": [],
+    "file": "ProjectList.css"
+}
