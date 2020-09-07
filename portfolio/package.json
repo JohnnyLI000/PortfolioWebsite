@@ -11,6 +11,7 @@
     "bootstrap": "^4.5.2",
     "firebase": "^7.19.1",
     "fullpage.js": "^3.0.9",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-fade-in": "^1.1.0",
