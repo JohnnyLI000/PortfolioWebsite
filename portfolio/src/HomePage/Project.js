@@ -8,13 +8,13 @@ class Project extends Component {
 
                 <div className="image-container"> 
                 <a href="#" class="link-div">
-                <img src={this.props.projectImagePath} className="project-image" alt="Cinque Terre" />
+                <img src={this.props.projectImageURL} className="project-image" alt="Cinque Terre" />
 
                 </a>
                 </div>
 
                 <div className="description">
-              <div className="title"><a href={this.props.projectLink}>{ this.props.projectTitle}</a> </div>
+              <div className="title"><a href={this.props.projectLink}>{ this.props.projectName}</a> </div>
                 <p>{this.props.projectDescription}</p>
                 </div>
             </div>
