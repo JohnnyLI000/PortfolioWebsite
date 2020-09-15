@@ -48,7 +48,7 @@ class ProjectList extends Component {
             <React.Fragment>
                 <div className="page-background">
                     <div className="about-me">
-                        <p>My name is Johnny Li, a creative thinker ,a gamer and a developer. Born in Chong Qing China and currently studying at Auckland University of Technology. I am all about presenting the ideas into your version and feeling. </p>
+                        <p>My name is Johnny Li, a creative thinker ,a gamer and a developer. Born in Chong Qing China and currently studying at Auckland University of Technology. I am all about presenting your ideas and thoughts into your version and feeling. </p>
                     </div>
                     {this.state.projects.map(project =>
                         <Project key={project.id}

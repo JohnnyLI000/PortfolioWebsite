@@ -14,8 +14,8 @@ class FrontPage extends Component {
                 <FadeIn>
 
                  <div className="introduction">
-                    <p>Hi , how are you today . </p>
-                    <p>I am Johnny Li.</p> 
+                    <p>Hey ,  </p>
+                    <p>I am Johnny Li .</p> 
                 </div>
                 <div className="direct-area">
                 <button className="direct-button">About me</button>

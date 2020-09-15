@@ -2,12 +2,10 @@ import React, { Component, Image } from 'react';
 import './css/projectStyle/Project.css'
 class Project extends Component {
     render() {
-        console.log('props: ', this.props);
         return (
             <div className="project-container">
-
                 <div className="image-container"> 
-                <a href="#" class="link-div">
+                <a href="#" className="link-div">
                 <img src={this.props.projectImageURL} className="project-image" alt="Cinque Terre" />
 
                 </a>
