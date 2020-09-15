@@ -36,13 +36,13 @@
 .introduction {
   display: inline-block;
   text-align: start;
-  margin-top: 10vh;
+  margin-top: 25vh;
   margin-left: 10vw;
 }
 
 .introduction p {
   font-family: anime-font;
-  word-spacing: 0.2vw;
+  word-spacing: 1vw;
   font-size: 2vw;
   color: white;
   font-weight: bold;
@@ -50,7 +50,7 @@
 
 .direct-area {
   padding-left: 10vw;
-  padding-top: 35vh;
+  padding-top: 20vh;
 }
 
 .direct-area .direct-button {

@@ -11,7 +11,8 @@
   margin-top: 20vh;
   margin-bottom: 20vh;
   font-family: Helvetica-font;
-  font-weight: 4px;
-  word-spacing: 2px;
+  font-weight: normal;
+  font-size: 1vw;
+  word-spacing: 0.2vw;
 }
 /*# sourceMappingURL=ProjectList.css.map */
