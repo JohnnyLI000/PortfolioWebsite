@@ -36,31 +36,30 @@
 .introduction {
   display: inline-block;
   text-align: start;
-  margin-top: 25vh;
+  margin-top: 10vh;
   margin-left: 10vw;
 }
 
 .introduction p {
   font-family: anime-font;
-  word-spacing: 1vw;
-  font-size: 2vw;
+  word-spacing: 20px;
+  font-size: 40px;
   color: white;
   font-weight: bold;
 }
 
 .direct-area {
   padding-left: 10vw;
-  padding-top: 20vh;
+  padding-top: 35vh;
 }
 
 .direct-area .direct-button {
-  width: 18vw;
-  height: 6vh;
+  width: 300px;
+  height: 60px;
   background-color: white;
   border: 8px solid white;
   font-family: Helvetica-font;
-  font-size: 1vw;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .direct-area .direct-button:hover {

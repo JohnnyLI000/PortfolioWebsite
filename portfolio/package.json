@@ -9,12 +9,15 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.2",
+    "emailjs-com": "^2.6.3",
     "firebase": "^7.19.1",
     "fullpage.js": "^3.0.9",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-fade-in": "^1.1.0",
+    "react-hook-form": "^6.8.2",
+    "react-modal": "^3.11.2",
     "react-scripts": "3.4.3"
   },
   "scripts": {
