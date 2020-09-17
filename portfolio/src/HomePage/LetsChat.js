@@ -1,8 +1,9 @@
 import emailjs from 'emailjs-com';
-import { Button } from '@material-ui/core';
+import './css/LetschatStyle/Letschat.css'
 import Modal from "./Modal.js"
 import React, {useState } from 'react';
 import { useForm } from "react-hook-form";
+
 export default function LetsChat() {
   const [isOpen,setIsOpen] = useState(false);
   let validation = false;
@@ -30,7 +31,7 @@ export default function LetsChat() {
 
   return(
     <div>
-      <button onClick={()=>setIsOpen(true)}>open modal</button>
+      <button onClick={()=>setIsOpen(true)} className="lets-chat-button">open modal</button>
       <Modal open ={isOpen} onClose ={()=>setIsOpen(false)}>
       <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
       <label>Name</label>

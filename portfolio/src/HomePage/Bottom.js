@@ -7,7 +7,9 @@ class Bottom extends Component {
     render() { 
         return ( 
             <React.Fragment>
-            <LetsChat></LetsChat>
+                <div className="bottom-container">
+                    <LetsChat></LetsChat>
+                </div>
 
         </React.Fragment>
         );
