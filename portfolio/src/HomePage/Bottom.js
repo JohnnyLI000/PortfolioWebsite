@@ -7,10 +7,10 @@ class Bottom extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <div className="bottom-container">
-                    <LetsChat></LetsChat>
+                <div className="background">
                 </div>
-
+                <h1>Hey again , my name is Johnny Li</h1>
+                <LetsChat></LetsChat>
         </React.Fragment>
         );
     }

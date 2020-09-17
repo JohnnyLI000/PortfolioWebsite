@@ -31,7 +31,7 @@ export default function LetsChat() {
 
   return(
     <div>
-      <button onClick={()=>setIsOpen(true)} className="lets-chat-button">open modal</button>
+      <button onClick={()=>setIsOpen(true)} className="lets-chat-button">Let's chat</button>
       <Modal open ={isOpen} onClose ={()=>setIsOpen(false)}>
       <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
       <label>Name</label>

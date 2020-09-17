@@ -1,6 +1,13 @@
-.bottom-container {
-  width: auto;
-  height: 300px;
-  background-color: red;
+.background {
+  margin-top: 30vh;
+  width: 100vw;
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: url("https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/IMG_9328.jpg");
 }
 /*# sourceMappingURL=Bottom.css.map */

@@ -1,5 +1,12 @@
-.bottom-container{
-    width: auto;
-    height: 300px;
-    background-color: red;
+@import '../variable.scss';
+.background{
+    margin-top: 30vh;
+    width: 100vw;
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url($backgroundImage)
 }
