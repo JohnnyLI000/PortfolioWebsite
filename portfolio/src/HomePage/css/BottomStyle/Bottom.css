@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Helvetica-font;
+  src: url("../../../resource/fonts/Helvetica.ttf");
+}
+
 .background {
   margin-top: 30vh;
   width: 100vw;
@@ -31,5 +36,18 @@
   -o-object-fit: cover;
      object-fit: cover;
   background-image: url("https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/IMG_9660.jpg");
+}
+
+.about-me-container {
+  width: 40vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  font-family: Helvetica-font;
+  font-weight: normal;
+  font-size: 1vw;
+  word-spacing: 0.2vw;
 }
 /*# sourceMappingURL=Bottom.css.map */

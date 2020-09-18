@@ -1,4 +1,8 @@
 @import '../variable.scss';
+@font-face {
+    font-family: Helvetica-font;
+    src: url("../../../resource/fonts/Helvetica.ttf");
+  }
 .background{
     margin-top: 30vh;
     width: 100vw;
@@ -22,4 +26,16 @@
     background-size: cover;
     object-fit: cover;
     background-image: url($profileImage);
+}
+.about-me-container{
+    width: 40vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-family: Helvetica-font;
+    font-weight: normal;
+    font-size: 1vw;
+    word-spacing: 0.2vw;
 }
