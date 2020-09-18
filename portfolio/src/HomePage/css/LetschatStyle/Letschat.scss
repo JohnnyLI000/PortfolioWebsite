@@ -2,6 +2,15 @@
     font-family: anime-font;
     src: url("../../../resource/fonts/Anime\ Inept.otf");
   }
+  @font-face {
+    font-family: Helvetica-font;
+    src: url("../../../resource/fonts/Helvetica.ttf");
+  }
+$primary: #11998e;
+$secondary: #38ef7d;
+$white: #fff;
+$gray: #9b9b9b;
+
 .lets-chat-button{
     width: 20vw;
     height: auto;
@@ -17,8 +26,8 @@
     transition: all 0.2s;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 1.2vw;
 }
 .lets-chat-button:hover{
@@ -31,3 +40,81 @@
     margin:0.4em auto;
     }
 }
+.modal-container{
+    display: flex;
+    height: 70vh;
+}
+.modal-background{
+    width: 60%;
+    height: 100%;
+    left: 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;;
+    background-size: cover;
+    background-image: url("https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/IMG_1254.jpg")
+}
+.modal-input-area{
+    padding-top: 6%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    position: relative;
+    padding: 10% 0 0 0;
+  }
+
+.form-input-field {
+    font-family: 'Helvetica-font';
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid $gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    &::placeholder {
+      color: transparent;
+    }
+  
+    &:placeholder-shown ~ .form-label{
+      font-size: 1.3rem;
+      cursor: text;
+      top: 50%;
+    }
+  }
+  
+  .form-label{
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: $gray;
+  }
+  
+  .form-input-field:focus {
+    ~ .form-label{
+        position: absolute;
+      top: 0;
+      display: block;
+      transition: 0.2s;
+      font-size: 1rem;
+      color: $primary;
+      font-weight:700;    
+    }
+    padding-bottom: 0;  
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, $primary,$secondary);
+    border-image-slice: 1;
+  }
+  /* reset input */
+  .form-input-field{
+    &:required,&:invalid { box-shadow:none; }
+  }

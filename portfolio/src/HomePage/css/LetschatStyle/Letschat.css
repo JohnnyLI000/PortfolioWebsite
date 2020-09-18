@@ -4,6 +4,11 @@
   src: url("../../../resource/fonts/Anime Inept.otf");
 }
 
+@font-face {
+  font-family: Helvetica-font;
+  src: url("../../../resource/fonts/Helvetica.ttf");
+}
+
 .lets-chat-button {
   width: 20vw;
   height: auto;
@@ -21,8 +26,8 @@
   transition: all 0.2s;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
   font-size: 1.2vw;
 }
 
@@ -36,5 +41,116 @@
     display: block;
     margin: 0.4em auto;
   }
+}
+
+.modal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+}
+
+.modal-background {
+  width: 60%;
+  height: 100%;
+  left: 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/IMG_1254.jpg");
+}
+
+.modal-input-area {
+  padding-top: 6%;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input-group {
+  position: relative;
+  padding: 10% 0 0 0;
+}
+
+.form-input-field {
+  font-family: 'Helvetica-font';
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+}
+
+.form-input-field::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-input-field:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-input-field::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-input-field::placeholder {
+  color: transparent;
+}
+
+.form-input-field:placeholder-shown ~ .form-label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 50%;
+}
+
+.form-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form-input-field:focus {
+  padding-bottom: 0;
+  font-weight: 700;
+  border-width: 3px;
+  -o-border-image: linear-gradient(to right, #11998e, #38ef7d);
+     border-image: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
+     border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+
+.form-input-field:focus ~ .form-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #11998e;
+  font-weight: 700;
+}
+
+/* reset input */
+.form-input-field:required, .form-input-field:invalid {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=Letschat.css.map */

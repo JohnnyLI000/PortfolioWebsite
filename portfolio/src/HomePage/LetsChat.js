@@ -6,8 +6,6 @@ import { useForm } from "react-hook-form";
 
 export default function LetsChat() {
   const [isOpen,setIsOpen] = useState(false);
-  let validation = false;
-
 
   const {register,handleSubmit,errors} = useForm();
 
@@ -30,20 +28,24 @@ export default function LetsChat() {
   }
 
   return(
-    <div>
+    <div className="form-group-field">
       <button onClick={()=>setIsOpen(true)} className="lets-chat-button">Let's chat</button>
       <Modal open ={isOpen} onClose ={()=>setIsOpen(false)}>
       <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
-      <label>Name</label>
-      <input type="text" name="name" ref={register({required:"Please let me know your name"})}/>
-      {errors.name&&  <p>{errors.name.message}</p>}
-      <label>Email</label>
-      <input type="email" name="email" ref={register({required:"Please let me know your email address"})} />
-      {errors.email&&  <p>{errors.email.message}</p>}
-      <label>Message</label>
-      <input type="text" name="message" ref={register({required:"Anything you want to tell me about?"})}/>
-      {errors.message &&  <p>{errors.message.message}</p>}
-      <input type="submit" value="Send"/>
+
+      <div className ="input-group">
+      <input className = "form-input-field" type="text" name="Name" placeholder="Name" ref={register({required:"Please let me know your name"})}/>
+      <label className = "form-label">Name</label>
+      </div>
+      <div className ="input-group">
+      <input className = "form-input-field" type="email" name="E-mail" placeholder="E-mail" ref={register({required:"Please let me know your email address"})} />
+      <label className = "form-label">Email</label>
+      </div>
+      <div className ="input-group">
+      <textarea className = "form-input-field" type="text" name="Message" placeholder="Message" ref={register({required:"Anything you want to tell me about?"})}/>
+      <label className = "form-label">Message</label>
+      </div>
+      <input className = "submit-button" className="lets-chat-button" type="submit" value="Send"/>
     </form>
       </Modal>
       
