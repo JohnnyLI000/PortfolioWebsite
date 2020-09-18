@@ -59,7 +59,12 @@
   background-color: white;
   border: 8px solid white;
   font-family: Helvetica-font;
-  font-weight: 600;
+  font-weight: 800;
+  text-decoration: none;
+  color: inherit;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .direct-area .direct-button:hover {

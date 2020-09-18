@@ -14,7 +14,7 @@
 .front-page-background{
     width: 100vw;
     height: 100vh;
-    background-image: url($$backgroundImageVideo);
+    background-image: url($backgroundImageVideo);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,7 +55,12 @@
         background-color:white;
         border: 8px solid white;
         font-family: Helvetica-font;
-        font-weight: 600;
+        font-weight: 800;
+        text-decoration: none;
+        color: inherit;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
     }
     .direct-button:hover{
         background-color: rgba(0,0,0,0);

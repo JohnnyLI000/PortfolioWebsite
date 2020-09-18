@@ -4,10 +4,8 @@
     src: url("../../../resource/fonts/Helvetica.ttf");
   }
 
-.page-background{
-}
 
-.about-me{
+.project-list-section-about-me{
     width: 40vw;
     text-align: center;
     margin-left: auto;
@@ -18,4 +16,8 @@
     font-weight: normal;
     font-size: 1vw;
     word-spacing: 0.2vw;
+}
+.blank-section{
+  height: 20vh;
+  width: auto;
 }

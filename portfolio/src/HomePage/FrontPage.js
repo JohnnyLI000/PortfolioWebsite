@@ -2,32 +2,49 @@ import React, { Component } from 'react';
 import './css/FrontPageStyle/FrontPage.css';
 import FadeIn from 'react-fade-in';
 import ArrowDropDown from '@material-ui/icons/ArrowDropDown';
-
+import { Link, animateScroll as scroll } from "react-scroll";
 class FrontPage extends Component {
     state = {}
     render() {
         return (
             <React.Fragment>
-                <div className = "page-body">
-                <div className="front-page-background">
-                <div className="color-cover"></div>
-                <FadeIn>
+                <div className="page-body">
+                    <div className="front-page-background">
+                        <div className="color-cover"></div>
+                        <FadeIn>
 
-                 <div className="introduction">
-                    <p>Hey ,  </p>
-                    <p>I am Johnny Li .</p> 
-                </div>
-                <div className="direct-area">
-                <button className="direct-button">About me</button>
-                <button className="direct-button">Projects</button>
-                <button className="direct-button">Contact</button>
+                            <div className="introduction">
+                                <p>Hey ,  </p>
+                                <p>I am Johnny Li .</p>
+                            </div>
+                            <div className="direct-area">
 
-                </div>
+                                <Link
+                                    className="direct-button"
+                                    activeClass="active"
+                                    to="project-list"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >Project </Link>
 
-                </FadeIn>
-                </div>
-             
-               
+                                <Link
+                                    className="direct-button"
+                                    activeClass="active"
+                                    to="about-me"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >About me</Link>
+
+                                <div className="direct-button">Send me an Email</div>
+
+                            </div>
+
+                        </FadeIn>
+                    </div>
                 </div>
             </React.Fragment>
         )

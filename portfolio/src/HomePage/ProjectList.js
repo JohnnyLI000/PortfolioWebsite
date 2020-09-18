@@ -46,8 +46,8 @@ class ProjectList extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="page-background">
-                    <div className="about-me">
+                <div className="project-list-section" id="project-list">
+                    <div className="project-list-section-about-me">
                         <p>My name is Johnny Li, a creative thinker ,a gamer and a developer. Born in Chong Qing China and currently studying at Auckland University of Technology. I am all about presenting your ideas and thoughts into your version and feeling. </p>
                     </div>
                     {this.state.projects.map(project =>
@@ -58,6 +58,7 @@ class ProjectList extends Component {
                     >
                         </Project>)}
                 </div>
+                <div className="blank-section"></div>
             </React.Fragment>
         );
     }
