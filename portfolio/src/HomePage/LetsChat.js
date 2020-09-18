@@ -20,7 +20,7 @@ export default function LetsChat() {
     };
     emailjs.send(
       "Gmail",
-      "template_68vgi4b",
+      "template_yz6xryb",
       templateParams,
       'user_xoryRMDvJfloJ3E21k1lY'
     );
