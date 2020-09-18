@@ -118,6 +118,7 @@
 }
 
 .form-label {
+  font-family: 'anime-font';
   position: absolute;
   top: 0;
   display: block;

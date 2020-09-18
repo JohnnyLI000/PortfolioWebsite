@@ -8,5 +8,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    background-image: url($backgroundImage)
+    background-image: url($bottomBackgroundImage);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-image-container{
+    width: 40%;
+    height: 60%;
+    margin-top: 14vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url($profileImage);
 }

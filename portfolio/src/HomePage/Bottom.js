@@ -9,8 +9,11 @@ class Bottom extends Component {
         return ( 
             <React.Fragment>
                 <div className="background">
+                    <div className="profile-image-container"></div>
                 </div>
-                <h1>Hey again , my name is Johnny Li</h1>
+                <p>Hey again, my name is Johnny Li , a software developer, born in Chong Qing China . Currently based in Auckland. I am majoring in software engineering and game programming at Auckland University of Technology. I have done projects in multi-disciplines, including web app, software, game, mobile app, etc. But the journey of debugging and creativity does not end here…
+Also, a lover of photography, cooking, fitness, anime, and gaming of course. 
+</p>
                 <LetsChat></LetsChat>
         </React.Fragment>
         );
