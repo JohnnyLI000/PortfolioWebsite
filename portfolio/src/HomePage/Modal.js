@@ -43,7 +43,7 @@ export default function Modal({open,children,onClose}) {
             <div className="modal-container">
             <div className="modal-background"></div>
             <div className="modal-input-area"> 
-            <button onClick={onClose} style={CLOSE_BUTTON_STYLE}>Close</button>
+            <button onClick={onClose} style={CLOSE_BUTTON_STYLE}>Close</button> 
             {children}
             </div>
             </div>

@@ -34,15 +34,15 @@ export default function LetsChat() {
       <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
 
       <div className ="input-group">
-      <input className = "form-input-field" type="text" name="Name" placeholder="Name" ref={register({required:"Please let me know your name"})}/>
+      <input className = "form-input-field" type="text" name="name" placeholder="Name" ref={register({required:"Please let me know your name"})}/>
       <label className = "form-label">Name</label>
       </div>
       <div className ="input-group">
-      <input className = "form-input-field" type="email" name="E-mail" placeholder="E-mail" ref={register({required:"Please let me know your email address"})} />
+      <input className = "form-input-field" type="email" name="email" placeholder="E-mail" ref={register({required:"Please let me know your email address"})} />
       <label className = "form-label">Email</label>
       </div>
       <div className ="input-group">
-      <textarea className = "form-input-field" type="text" name="Message" placeholder="Message" ref={register({required:"Anything you want to tell me about?"})}/>
+      <textarea className = "form-input-field" type="text" name="message" placeholder="Message" ref={register({required:"Anything you want to tell me about?"})}/>
       <label className = "form-label">Message</label>
       </div>
       <input className = "submit-button" className="lets-chat-button" type="submit" value="Send"/>
