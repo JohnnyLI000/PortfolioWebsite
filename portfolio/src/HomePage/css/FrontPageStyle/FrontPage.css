@@ -10,27 +10,33 @@
 
 .page-body {
   margin: 0;
-  background-color: sandybrown;
 }
 
-.front-page-background {
+#background-video {
   width: 100vw;
   height: 100vh;
-  background-image: url("https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/MVI_1102_5.gif");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
+  z-index: 1;
 }
 
-.front-page-background .color-cover {
+#background-video .color-cover {
   position: absolute;
   width: 100vw;
   height: 100vh;
   background-color: black;
   opacity: 22%;
+  z-index: 2;
+}
+
+#background-video-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .introduction {
@@ -51,6 +57,7 @@
 .direct-area {
   padding-left: 10vw;
   padding-top: 35vh;
+  z-index: 100;
 }
 
 .direct-area .direct-button {

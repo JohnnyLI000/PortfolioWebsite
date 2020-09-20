@@ -7,12 +7,18 @@ class FrontPage extends Component {
     state = {}
     render() {
         return (
-            <React.Fragment>
-                <div className="page-body">
-                    <div className="front-page-background">
-                        <div className="color-cover"></div>
-                        <FadeIn>
 
+            <React.Fragment>
+
+                <div className="page-body">
+
+                    <div className="color-cover"></div>
+                    <video id="background-video" autoPlay muted loop>
+                        <source src="https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/video/backgroundVideo.mp4" type="video/mp4" />
+                        Your browser does not support HTML5 video.
+                        </video>
+                    <div id="background-video-nav">
+                        <FadeIn>
                             <div className="introduction">
                                 <p>Hey ,  </p>
                                 <p>I am Johnny Li .</p>
@@ -38,10 +44,10 @@ class FrontPage extends Component {
                                     duration={500}
                                 >About me</Link>
                             </div>
-
                         </FadeIn>
                     </div>
                 </div>
+
             </React.Fragment>
         )
     }

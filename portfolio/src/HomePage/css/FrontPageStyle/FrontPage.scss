@@ -9,32 +9,36 @@
   }
 .page-body{
     margin: 0;
-    background-color: sandybrown;
 }
-.front-page-background{
+#background-video{
     width: 100vw;
     height: 100vh;
-    background-image: url($backgroundImageVideo);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+    z-index: 1;
     .color-cover{
         position:absolute;
         width: 100vw;
         height: 100vh;
         background-color: black;
         opacity: 22%;
+        z-index: 2;
     }
 }
+#background-video-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
 
+}
 .introduction{
     display: inline-block;
     text-align:start;
     margin-top: 10vh;
     margin-left: 10vw;;
-
     p{
         font-family:  anime-font;
         word-spacing: 20px;
@@ -49,6 +53,7 @@
 .direct-area{
     padding-left: 10vw;
     padding-top: 35vh;
+    z-index: 100;
     .direct-button{
         width: 300px;
         height: 60px;

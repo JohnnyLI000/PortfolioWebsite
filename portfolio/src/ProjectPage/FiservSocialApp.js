@@ -8,8 +8,6 @@ class FiservSocialAppProject extends Component {
             <React.Fragment>
                 <div className = "page-body">
                 <div className="project-background"></div>
-
-
                 </div>
             </React.Fragment>
             <h1>fiser project</h1>
