@@ -1,0 +1,11 @@
+.project-background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/ProjectBackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=FiservSocialAppStyle.css.map */

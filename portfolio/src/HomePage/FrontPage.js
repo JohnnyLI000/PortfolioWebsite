@@ -18,7 +18,6 @@ class FrontPage extends Component {
                                 <p>I am Johnny Li .</p>
                             </div>
                             <div className="direct-area">
-
                                 <Link
                                     className="direct-button"
                                     activeClass="active"
@@ -38,9 +37,6 @@ class FrontPage extends Component {
                                     offset={-70}
                                     duration={500}
                                 >About me</Link>
-
-                                <div className="direct-button">Send me an Email</div>
-
                             </div>
 
                         </FadeIn>

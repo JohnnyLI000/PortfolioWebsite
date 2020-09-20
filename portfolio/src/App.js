@@ -1,10 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Home from './HomePage/Home.js'
+import Home from './HomePage/Home.js';
+import FiservSocialApp from './ProjectPage/FiservSocialApp.js';
+import { Route, BrowserRouter as Router} from "react-router-dom";
 function App() {
   return (
- <Home></Home>
+    <Router>
+        <Route exact path="/" component={Home}></Route>
+        <Route path="/FiservSocialApp" component={FiservSocialApp}></Route>
+    </Router>
   );
 }
 

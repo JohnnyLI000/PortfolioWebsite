@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,mBAAmB,CAAA;EACf,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,qGAAyB;EAC3C,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "FiservSocialAppStyle.scss",
+        "../variable.scss"
+    ],
+    "names": [],
+    "file": "FiservSocialAppStyle.css"
+}
