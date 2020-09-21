@@ -1,11 +1,42 @@
 @import '../variable.scss';
-
+@font-face {
+    font-family: Helvetica-font;
+    src: url("../../../src/resource/fonts/Helvetica.ttf");
+  }
 .project-background{
     width: 100vw;
     height: 100vh;
-    background-image: url($frontPageBackground);
+    background-color: $project-background-color;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+}
+.project-title{
+    position: absolute;
+    margin-left:25vw;
+    padding-top: 8vh;
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: Helvetica-font;
+    font-weight: bold;
+}
+.rectangle{
+    position: absolute;
+    width: 40vw;
+    height: 60vh;
+    top: 60%;
+    left: -10%;
+    transform: rotate(110deg);
+    border: 0.1vw solid #86473F;
+
+}
+.project-descrption{
+    margin-left:15vw;
+    position: absolute;
+    margin-top: 60vh;
+    width: 20vw;
+    font-size: 1vw;
+    font-family: Helvetica-font;
+    
 }
