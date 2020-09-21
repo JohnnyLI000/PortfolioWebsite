@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form";
 export default function LetsChat() {
   const [isOpen,setIsOpen] = useState(false);
 
-  const {register,handleSubmit,errors} = useForm();
+  const {register,handleSubmit} = useForm();
 
   const onSubmit = (data,e) =>{
     const { name, email, message } = data;

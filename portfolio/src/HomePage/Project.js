@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import './css/projectStyle/Project.css'
 class Project extends Component {
 
-
-
     render() {
         return (
             <div className="project-container">

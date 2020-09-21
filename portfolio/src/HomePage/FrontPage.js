@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './css/FrontPageStyle/FrontPage.css';
 import FadeIn from 'react-fade-in';
-import ArrowDropDown from '@material-ui/icons/ArrowDropDown';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link, animateScroll } from "react-scroll";
 class FrontPage extends Component {
     state = {}
     render() {
