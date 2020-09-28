@@ -7,17 +7,32 @@ class FiservSocialAppProject extends Component {
         return ( 
             <div>
             <React.Fragment>
-                <div className = "page-body">
+                <div className = "project-body">
                 <FrontPage></FrontPage>
-                <div className="second page"><p>The Fiserv Team had an issue with the security of the events, 
+
+                <div className="project-proposal"><p>The Fiserv Team had an issue with the security of the events, 
                 their main issue was authentication. The events are made through a wiki which meant that other people could modify information in the events and provide false information which was not secure. Employees had to manually sign up to events and write down all the information through the wiki which results in storing too much data. Another issue was that it could only be done through a work device, if an employee didn’t have their work device, they wouldn’t be able to create or see any of the events.
                  This also meant that employees wouldn’t be able to receive announcements or emergency alerts if they weren’t on their work device.</p>
+                 <br></br>
+                 <br></br>
+                 <br></br>
                  <br></br>
                  <p>They wanted to be able to have an app for their employees so that it was easy to create, view and attend event through the ease of 
                      their phones as well as higher security so that only the owner of an event could modify the details. The Fiserv Team also believe that if there is
                       an app for these features, it will be more convenient for employees to attend events and increase engagement and improve the culture in the work
                        environment.  </p> </div>
+
+                <div id="fiserv-ui-design">
+                    <div className = "header">
+                        <p>Fiserv social app UI design</p>
+                    </div>
+                    <div className = "header-description">
+                    </div>
+                     <img src="https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/Fiserv+UI+design.png"></img>
                 </div>
+                
+                </div>
+
             </React.Fragment>
             </div>
          );

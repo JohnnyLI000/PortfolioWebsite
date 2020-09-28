@@ -9,14 +9,28 @@ class ProjectFrontPage extends Component {
                     <div className="project-title">
                         <p>fiserv project</p>
                     </div>
-                    <div className = "rectangle"> </div>
                    
-                    <div className="project-descrption">
+                    <div className="project-description">
                         <p>
                             Currently this project is my Research and Development project for Fiserv , the idea is
                             to develop an internal android social app, and to build a bridge
                             between employees.
                         </p>
+                    </div>
+                    <div className ="project-descripion-2">
+                        <p>03/20 - present</p>
+                        <p>
+                            -----------------------------
+                            <br></br>
+                            Role: 
+                            <br></br>
+                            UI/UX designer
+                            <br></br>
+                            Developer
+                            <br></br>
+                            -----------------------------
+                        </p>
+                        <p>Client: Fiserv</p>
                     </div>
                 </div>
             </React.Fragment>

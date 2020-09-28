@@ -3,10 +3,13 @@
   src: url("../../../src/resource/fonts/Helvetica.ttf");
 }
 
+.project-body {
+  background-color: #D7C4BB;
+}
+
 .project-background {
   width: 100vw;
   height: 100vh;
-  background-color: #D7C4BB;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,21 +29,61 @@
 
 .rectangle {
   position: absolute;
-  width: 40vw;
+  width: 50vw;
   height: 60vh;
-  top: 60%;
-  left: -10%;
+  top: 20%;
   -webkit-transform: rotate(110deg);
           transform: rotate(110deg);
   border: 0.1vw solid #86473F;
 }
 
-.project-descrption {
-  margin-left: 15vw;
+.project-description {
+  margin-left: 10vw;
   position: absolute;
   margin-top: 60vh;
   width: 20vw;
   font-size: 1vw;
   font-family: Helvetica-font;
+}
+
+.project-descripion-2 {
+  margin-left: 60vw;
+  position: absolute;
+  margin-top: 60vh;
+  width: 20vw;
+  font-size: 1vw;
+  font-family: Helvetica-font;
+}
+
+.project-proposal {
+  width: 40vw;
+  font-size: 1vw;
+  font-family: Helvetica-font;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+
+#fiserv-ui-design {
+  width: 55%;
+  margin: auto;
+}
+
+#fiserv-ui-design img {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  font-size: 1.6vw;
+  font-weight: bolder;
+  font-family: Helvetica-font;
+}
+
+.header-description {
+  font-size: 1vw;
+  font-weight: normal;
+  font-family: Helvetica-font;
+  color: grey;
 }
 /*# sourceMappingURL=FiservSocialAppStyle.css.map */

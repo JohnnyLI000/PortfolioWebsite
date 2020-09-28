@@ -10,6 +10,7 @@ class ProjectList extends Component {
         const response = await fetch ('https://x1bf5ud1a0.execute-api.ap-southeast-2.amazonaws.com/Dev');
         const body = await response.json();
         this.setState({projects:body});
+        console.log(this.state.projects)
     }
 
     render() {
