@@ -22,15 +22,28 @@ class FiservSocialAppProject extends Component {
                       an app for these features, it will be more convenient for employees to attend events and increase engagement and improve the culture in the work
                        environment.  </p> </div>
 
-                <div id="fiserv-ui-design">
+                <div id="fiserv-demo">
+                    <div className ="demo-section">
                     <div className = "header">
                         <p>Fiserv social app UI design</p>
                     </div>
                     <div className = "header-description">
                     </div>
                      <img src="https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/Fiserv+UI+design.png"></img>
+                     </div>
+
+                     <div className="demo-section">
+                     <div className = "header">
+                        <p>Fiserv social app demonstrate</p>
+                    </div>
+                    <div className = "header-description">
+                        This is runned on Android emulator to demonstrate the current features
+                    </div>
+                    <div id="social-app-demo">
+                     <img src="https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/FiservSocialAppDemo.gif"></img>
+                     </div>
                 </div>
-                
+                </div>
                 </div>
 
             </React.Fragment>
