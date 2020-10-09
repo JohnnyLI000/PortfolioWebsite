@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Project from './Project.js'
 import './css/projectStyle/ProjectList.scss'
+
 class ProjectList extends Component {
     state = {
         projects:[]

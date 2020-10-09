@@ -1,15 +1,14 @@
-import React, { Component, Image } from 'react';
+import React, { Component} from 'react';
 import { Link } from 'react-router-dom';
 import './css/projectStyle/Project.css'
+
 class Project extends Component {
 
     render() {
         return (
             <div className="project-container">
                 <div className="image-container"> 
-                {/* <Link to={this.props.projectLink} className="link-div">             
-                <img src={this.props.projectImageURL} className="project-image" alt="Cinque Terre" />
-                </Link> */}
+             
                 
                 {isURL(this.props.projectLink)
                 ?   

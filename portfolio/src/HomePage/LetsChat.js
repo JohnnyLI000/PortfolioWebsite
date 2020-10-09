@@ -45,7 +45,7 @@ export default function LetsChat() {
       <textarea className = "form-input-field" type="text" name="message" placeholder="Message" ref={register({required:"Anything you want to tell me about?"})}/>
       <label className = "form-label">Message</label>
       </div>
-      <input className = "submit-button" className="lets-chat-button" type="submit" value="Send"/>
+      <input className="lets-chat-button" type="submit" value="Send"/>
     </form>
       </Modal>
       

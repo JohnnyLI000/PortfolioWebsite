@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './css/FrontPageStyle/FrontPage.css';
-import FadeIn from 'react-fade-in';
-import { Link, animateScroll } from "react-scroll";
+import { Link } from "react-scroll";
 class FrontPage extends Component {
     state = {}
     render() {
@@ -17,7 +16,6 @@ class FrontPage extends Component {
                         Your browser does not support HTML5 video.
                         </video>
                     <div id="background-video-nav">
-                        <FadeIn>
                             <div className="introduction">
                                 <p>Hey ,  </p>
                                 <p>I am Johnny Li .</p>
@@ -43,7 +41,7 @@ class FrontPage extends Component {
                                     duration={500}
                                 >About me</Link>
                             </div>
-                        </FadeIn>
+                    
                     </div>
                 </div>
 

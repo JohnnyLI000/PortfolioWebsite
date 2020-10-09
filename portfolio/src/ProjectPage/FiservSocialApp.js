@@ -29,7 +29,7 @@ class FiservSocialAppProject extends Component {
                     </div>
                     <div className = "header-description">
                     </div>
-                     <img src="https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/Fiserv+UI+design.png"></img>
+                     <img src="https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/Fiserv+UI+design.png" alt="nice"></img>
                      </div>
 
                      <div className="demo-section">
@@ -40,7 +40,7 @@ class FiservSocialAppProject extends Component {
                         This is runned on Android emulator to demonstrate the current features
                     </div>
                     <div id="social-app-demo">
-                     <img src="https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/FiservSocialAppDemo.gif"></img>
+                     <img src="https://jonnnyportfolioimagebucket.s3-ap-southeast-2.amazonaws.com/Image/FiservSocialAppDemo.gif"  alt="nice"></img>
                      </div>
                 </div>
                 </div>
