@@ -18,7 +18,7 @@ class ProjectFrontPage extends Component {
                         </p>
                     </div>
                     <div className ="project-descripion-2">
-                        <p>03/20 - present</p>
+                        <p>03/20 - 10/20</p>
                         <p>
                             -----------------------------
                             <br></br>
