@@ -19,9 +19,10 @@ class ProjectList extends Component {
             <React.Fragment>
                 <div className="project-list-section" id="project-list">
                     <div className="project-list-section-about-me">
-                        <p>My name is Johnny Li, a creative thinker ,a gamer and a developer. 
-                            Born in Chong Qing China and I have recently finished my Bachelor's Degree in Computer and Information Sciences at Auckland University of Technology. 
-                            Currently looking for work and internship opportunities. </p>
+                        <p>My name is Johnny Li, a creative thinker. Born in Chong Qing China
+              and I am currently a Master's degree candidate. I am super
+              enjoying machine learning, industry 4.0 and help enterprises to
+              improve their plants' overall performance  </p>
                     </div>
                     
                     {this.state.projects.map(project =>
